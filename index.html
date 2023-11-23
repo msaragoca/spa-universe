@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="shortcut icon" href="/images/vector.svg" type="image/x-icon" />
+
+    <title>SPA Universe</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="home">
+      <header>
+        <img src="/images/vector.svg" alt="" />
+        <a href="/pages/home.html" onclick="route()">Home</a>
+        <a href="/pages/universe.html" onclick="route()">O Universo</a>
+        <a href="/pages/exploration.html" onclick="route()">Exploração</a>
+      </header>
+      <nav>
+        <h2>Explore o universo</h2>
+        <button>Quero saber mais</button>
+      </nav>
+    </div>
+
+    <div id="app"></div>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
